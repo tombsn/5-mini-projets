@@ -3,6 +3,7 @@ import random
 chosen_number = random.randint(1,6)
 result = False
 
+#J'instancie le nombre de tentatives à 3
 for i in range(3):
     proposed_number = int(input("Saisir un nombre entre 1 et 6 : "))
     if chosen_number == proposed_number:
