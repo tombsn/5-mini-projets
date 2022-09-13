@@ -10,4 +10,4 @@ accro = ''
 for i in word:
     accro=accro+str(i[0]).upper()
 
-print("Voici l'acronyme de la chaine de caractère : " + accro)
+print(f"Voici l'acronyme de la chaine de caractère : {accro}")
